@@ -27,3 +27,9 @@ ou usando a GUI:
 ```[bash]
 node puppeteer.js
 ```
+
+### Selenium
+
+```[bash]
+node selenium.js
+```
