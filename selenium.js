@@ -4,11 +4,12 @@ const chai = require('chai');
 (async function testeBasico() {
   let driverChrome = await new Builder().forBrowser('chrome').build();
   // let driverFirefox = await new Builder().forBrowser('firefox').build();
-  let driverSafari = await new Builder().forBrowser('safari').build();
+  // let driverSafari = await new Builder().forBrowser('safari').build();
   const baseUrl = 'http://localhost:8080';
 
   await run(driverChrome);
-  await run(driverSafari);
+  // await run(driverFirefox);
+  // await run(driverSafari);
   
   async function run(driver) {
     try {
