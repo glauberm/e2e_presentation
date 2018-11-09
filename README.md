@@ -1,6 +1,6 @@
 # E2E_presentation: Cypress vs TestCafe vs Puppeteer vs Selenium
 
-Código usado em uma pequena apresentação sobre testes E2E.
+Código usado em uma pequena apresentação sobre testes E2E. O vencedor da comparação foi o Cypress.
 
 ## Rodando os testes
 
